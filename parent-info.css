@@ -1,7 +1,38 @@
-*{
+* {
   margin:0;
   padding:0;
   box-sizing:border-box;
-  background-color: mediumaquamarine;
 
+}
+body {
+  background-color: #CCE5DD
+}
+.title {
+  display: flex;
+  justify-content: center;
+}
+#subtitle {
+  padding-bottom: 10px;
+}
+h3 {
+  padding-top: 5px;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#intro {
+  padding-top: 20px;
+}
+h1 {
+  padding: 15px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #b7ced5;
+  background-color: #b7ced5;
+}
+p {
+  padding: 5px;
 }
