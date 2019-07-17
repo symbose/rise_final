@@ -21,12 +21,19 @@ body {
   border-style: solid;
   border-color: #b7ced5;
   background-color: #b7ced5;
+  font-size: 45px;
 }
 .recycle {
   display: flex;
   justify-content: center;
   padding-left: 20px;
   padding-right: 20px;
+}
+#subrecycle {
+  padding-top: 20px;
+}
+#subcompost {
+ padding-top: 20px;
 }
 .compost {
   display: flex;

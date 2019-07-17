@@ -59,15 +59,15 @@
 .audrey {
     display: flex;
     flex-direction: column;
-    height: 31%;
-    width: 31%;
+    width: 320px;
+    height: 244px;
 
 }
 .kameron {
     display: flex;
     flex-direction: column;
-    height: 31%;
-    width: 31%;
+    width: 180px;
+    height: 120px;
 
 }
 .all-info {
