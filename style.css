@@ -6,6 +6,75 @@
 
 }
 
-body{
-  background-color: #CCE5DD
+h1{
+  font-family: 'Quicksand', sans-serif;
+  display:flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 0px;
+  padding: -15px;
+  font-size: 100px;
+  font-color:#928E72;
+}
+
+p{
+  font-family: 'Quicksand', sans-serif;
+  display:flex;
+  justify-content: center;
+  margin-top: -10px;
+  font-size: 50px;
+  font-color:#928E72;
+}
+
+
+
+.images {
+  display:flex;
+  justify-content: center;
+
+}
+
+img{
+  width: 400px;
+  height: 400px;
+  /* display: inline-block;
+  position: relative; */
+  padding-bottom: 20px;
+}
+
+#one {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+    /* margin: 0px; */
+}
+
+
+#one .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+#one:hover .img-top {
+    display: inline;
+
+}
+
+.button{
+  display:flex;
+  justify-content: center;
+  border:solid;
+  border-radius: 20px;
+
+}
+
+button{
+    font-size: 50px;
+    width: 100%;
+    border-radius:20px;
 }
