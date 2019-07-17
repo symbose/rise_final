@@ -2,17 +2,76 @@
   margin:0;
   padding:0;
   box-sizing:border-box;
-  background-color: mediumaquamarine;
+  background-color: #CCE5DD;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .title {
   display: flex;
   justify-content: center;
+  font-size: 120px;
 }
 
-.names {
+/* .names {
   display: flex;
   flex-direction: row;
   padding: 10px;
   border: 10px;
+  justify-content: space-around;
+}
+
+
+.information {
+  display: flex;
+  flex-direction: row;
+
+  padding: 10px;
+  border: 10px;
+  justify-content: space-around;
+}
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+} */
+
+.all-info {
+  text-align: center;
+}
+
+
+.all-info img {
+  display: flex;
+  justify-content: center;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  /* height: 31%;
+  width: 31%; */
+}
+.symanthika {
+
+    display: flex;
+    flex-direction: column;
+    height: 31%;
+    width: 31%;
+}
+
+.audrey {
+    display: flex;
+    flex-direction: column;
+    height: 31%;
+    width: 31%;
+
+}
+.kameron {
+    display: flex;
+    flex-direction: column;
+    height: 31%;
+    width: 31%;
+
+}
+.all-info {
+  display: flex;
+  justify-content: space-around;
+
 }
