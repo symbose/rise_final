@@ -2,6 +2,35 @@
   margin:0;
   padding:0;
   box-sizing:border-box;
-  background-color: mediumaquamarine;
-
+}
+body {
+  background-color: #CCE5DD
+}
+.title {
+  display: flex;
+  justify-content: center;
+}
+#subtitle {
+  padding-bottom: 10px;
+}
+#subsubtitle {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #b7ced5;
+  background-color: #b7ced5;
+}
+.recycle {
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.compost {
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
