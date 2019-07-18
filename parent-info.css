@@ -2,7 +2,8 @@
   margin:0;
   padding:0;
   box-sizing:border-box;
-
+  /* padding-bottom: 10px; */
+  font-family: 'Josefin Sans', sans-serif;
 }
 body {
   background-color: #CCE5DD
@@ -17,9 +18,15 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.text {
+  font-size: 30px;
+  display: flex;
+  /* justify-content: center; */
+
+}
 #subtitle {
-  /* padding-bottom: 10px; */
-  font-family: 'Josefin Sans', sans-serif;
+
   display:flex;
   justify-content: center;
   margin-top: 10px;
@@ -58,6 +65,8 @@ h1 {
 }
 p {
   padding: 5px;
+  display: flex;
+  justify-content: center;
 }
 #home {
   font-size: 20px;
