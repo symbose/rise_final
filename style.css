@@ -79,5 +79,6 @@ button{
 }
 
 .three{
-    display
+    display:flex;
+    flex-direction: row;
 }

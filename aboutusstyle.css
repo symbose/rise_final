@@ -14,6 +14,13 @@
 
 img {
   max-width:100%;
+
+}
+
+.button {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
 }
 /* .names {
   display: flex;
