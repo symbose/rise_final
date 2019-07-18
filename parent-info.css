@@ -6,7 +6,7 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 body {
-  background-color: #CCE5DD
+  background-color: paleturquoise;
 }
 .button {
   display: flex;
@@ -75,7 +75,7 @@ p {
   height: 40px;
   border: solid;
   border-radius:10px;
-  background-color: #CCE5DD;
+  background-color: paleturquoise;
 }
 
 #how-to {
@@ -85,7 +85,7 @@ p {
   height: 40px;
   border: solid;
   border-radius:10px;
-  background-color: #CCE5DD;
+  background-color: paleturquoise;
 }
 
 #information {
@@ -95,7 +95,7 @@ p {
   height: 40px;
   border: solid;
   border-radius:10px;
-  background-color: #CCE5DD;
+  background-color: paleturquoise;
 }
 
 #parent_info {
@@ -105,5 +105,5 @@ p {
   height: 40px;
   border: solid;
   border-radius:10px;
-  background-color: #CCE5DD;
+  background-color: paleturquoise;
 }
