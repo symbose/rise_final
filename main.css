@@ -28,21 +28,11 @@ p{
   font-color:#928E72;
 }
 
-.box1 {
+.box{
   display: inline;
 }
 
-.box2 {
-  display: inline;
-}
 
-.box2 {
-  display: inline;
-}
-
-.box4 {
-  display: inline;
-}
 
 .checks{
   display: flex;
@@ -57,4 +47,11 @@ p{
 
 .checks input {
   display: inline;
+}
+
+#points {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  margin-top: 20px;
 }

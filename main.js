@@ -3,9 +3,9 @@ var waterbottle = $(`#one`);
 var straw = $(`#two`);
 var plastic = $(`#three`);
 var foodWaste = $(`#four`);
-var 
+var showimage =
 
-button.on("click", add)
+button.on("click", add);
 
 function add (){
   event.preventDefault()
