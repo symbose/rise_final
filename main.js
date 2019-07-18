@@ -1,15 +1,27 @@
-
+var button = $(`#add`);
 var waterbottle = $(`#one`);
+var straw = $(`#two`);
+var plastic = $(`#three`);
+var foodWaste = $(`#four`);
 
-waterbottle.onClick("chbx", check);
+button.on("click", add)
 
-function check (){
+function add (){
+  event.preventDefault()
+  var addPoints = 0;
 
-  if (waterbottle = true){
-    var waterbottlepoints = 5;
+  if (waterbottle.prop("checked") == true){
+    addPoints += 5;
   }
-  else {
-    var waterbottlepoints = 0;
+  if (straw.prop("checked") == true){
+    addPoints += 5;
   }
-console.log(waterbottlepoints);  
+  if (plastic.prop("checked") == true){
+    addPoints += 5;
+  }
+  if (foodWaste.prop("checked") == true){
+    addPoints += 5;
+  }
+
+  $("#points").text(addPoints);
 }

@@ -15,7 +15,7 @@ h1{
   margin-right: 25px;
   margin-bottom: 0px;
   padding: -15px;
-  font-size: 5px;
+  font-size: 50px;
   font-color:#928E72;
 }
 
@@ -26,9 +26,4 @@ p{
   margin-top: -10px;
   font-size: 10px;
   font-color:#928E72;
-}
-
-.checks{
-  padding: 15px;
-  font-family: 'Quicksand', sans-serif;
 }
