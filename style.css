@@ -82,3 +82,35 @@ button{
     display:flex;
     flex-direction: row;
 }
+
+#first {
+  font-size: 20px;
+  margin-top: 25px;
+  /* width: 200px;
+  height: 40px; */
+  padding-left: 0px;
+  padding-right: 0px;
+  border: solid;
+  border-radius:10px;
+
+}
+
+
+#two {
+  font-size: 20px;
+  margin-top: 25px;
+  /* width: 200px;
+  height: 40px; */
+  border: solid;
+  border-radius:10px;
+}
+
+#three {
+  font-size: 20px;
+  margin-top: 25px;
+  /* width: 200px;
+  height: 40px; */
+  border: solid;
+  border-radius:10px;
+
+}
