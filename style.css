@@ -2,7 +2,7 @@
   margin:0;
   padding:0;
   box-sizing:border-box;
-  background-color: #44D1DF;
+  background-color: cornflowerblue;
 
 }
 
@@ -41,6 +41,7 @@ img{
   /* display: inline-block;
   position: relative; */
   padding-bottom: 20px;
+  border-radius: 100%;
 }
 
 #one {
@@ -49,6 +50,7 @@ img{
     position: relative;
     display: inline-block;
     /* margin: 0px; */
+    border-radius: 50%;
 }
 
 
