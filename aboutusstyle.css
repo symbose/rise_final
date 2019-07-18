@@ -21,6 +21,7 @@ img {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+
 }
 /* .names {
   display: flex;
@@ -75,11 +76,16 @@ img {
 
 }
 
+.all-info h3 {
+  text-align: justify;
+}
+
 #audrey_img {
   display: flex;
   margin-bottom: 127px;
   margin-top: 200px
-
+  width: 400px;
+  height: 600px;
 }
 .kameron {
     /* object-fit: cover; */
@@ -94,9 +100,48 @@ img {
   display:flex;
   margin-top: 100px;
   margin-bottom: 42px;
+  width: 400px;
+  height: 400px;
 
 }
 .all-info {
   display: flex;
   justify-content: space-around;
+}
+
+#home{
+  font-size: 20px;
+  margin-top: 25px;
+  width: 200px;
+  height: 40px;
+  border: solid;
+  border-radius:10px;
+
+}
+
+#how-to{
+  font-size: 20px;
+  margin-top: 25px;
+  width: 200px;
+  height: 40px;
+  border: solid;
+  border-radius:10px;
+}
+
+#information{
+  font-size: 20px;
+  margin-top: 25px;
+  width: 200px;
+  height: 40px;
+  border: solid;
+  border-radius:10px;
+}
+
+#parent-info{
+  font-size: 20px;
+  margin-top: 25px;
+  width: 200px;
+  height: 40px;
+  border: solid;
+  border-radius:10px;
 }
