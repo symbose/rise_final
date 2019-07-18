@@ -6,6 +6,12 @@
 body {
   background-color: #CCE5DD
 }
+.button {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+
+}
 .title {
   display: flex;
   justify-content: center;
