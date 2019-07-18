@@ -66,9 +66,10 @@ img{
 
 .button{
   display:flex;
-  justify-content: center;
+  /* justify-content: center; */
   border:solid;
   border-radius: 20px;
+  justify-content: space-around;
 
 }
 
@@ -83,6 +84,7 @@ button{
 .three{
     display:flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 #first {
