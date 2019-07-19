@@ -64,11 +64,11 @@ if (add()==5){
   rewardsButton.toggleClass('pink');
   fish.toggleClass('hide');
 }
-else if (add()==10){
-  var clown = $('#banana');
-  rewardsButton.toggleClass('pink');
-  clown.toggleClass('hide');
-}
+// else if (add()==10){
+//   var clown = $('#banana');
+//   rewardsButton.toggleClass('pink');
+//   clown.toggleClass('hide');
+// }
 
 
 }
