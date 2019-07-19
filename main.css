@@ -1,4 +1,4 @@
-*{
+/* *{
   margin:0;
   padding:0;
   box-sizing:border-box;
@@ -54,4 +54,116 @@ p{
   flex-flow: column wrap;
   justify-content: center;
   margin-top: 20px;
+} */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background-color: paleturquoise;
+}
+
+
+h1{
+  font-family: 'Quicksand', sans-serif;
+  display:flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 7px;
+  margin-right: 25px;
+  margin-bottom: 0px;
+  padding: -15px;
+  font-size: 50px;
+  font-color:#44D1DF;
+}
+
+p{
+  font-family: 'Quicksand', sans-serif;
+  display:flex;
+  justify-content: center;
+  margin-top: -10px;
+  font-size: 15px;
+  font-color:#928E72;
+}
+
+.box{
+  display: inline;
+  background-color: white;
+  padding: 5px;
+}
+
+.checks{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  justify-content: space-around;
+  margin: 15px;
+  font-family: 'Quicksand', sans-serif;
+  background-color: white;
+}
+
+.checks input {
+  display: inline;
+}
+
+#points {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content:center;
+  margin-top: 20px;
+}
+
+.twoboxes{
+  display:flex;
+  justify-content:center;
+
+}
+
+.header{
+  margin-bottom:20px;
+
+}
+
+#a{
+  width: 400px;
+  height: 350px;
+  padding: 10px;
+  border: 5px white;
+  border-radius: 5px;
+  margin-right: 5px;
+  background-color:white;
+  display: flex;
+  flex-flow: column wrap;
+  padding-top: 40px;
+  padding-left: 15px;
+  font-family: 'Quicksand', sans-serif;
+
+
+}
+
+#b{
+  width: 320px;
+  padding: 10px;
+  border: 5px white;
+  border-radius: 5px;
+  margin: 0;
+  background-color:white;
+}
+
+#add{
+  font-family: 'Quicksand', sans-serif;
+}
+
+#boxheaderone{
+  font-family: 'Quicksand', sans-serif;
+  font-size:20px;
+  display:flex;
+  margin-top:-20px;
+  margin-bottom:10px;
+
 }
