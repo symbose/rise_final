@@ -55,20 +55,11 @@ rewardsButton.on("click", changeColors);
 function changeColors() {
 
 if (add()==5){
-  var fish = $('#apple');
+  var fish = $('img');
   rewardsButton.toggleClass('pink');
   fish.toggleClass('hide');
 }
 
-else if (add()==10){
-  var clown = $('#banana');
-  rewardsButton.toggleClass('pink');
-  clown.toggleClass('hid');
-}
 
-// else if (add()==15){
-//   var octopus = $('#pear');
-//   rewardsButton.toggleClass('pink');
-//   octopus.toggleClass('hid');
-//
-// }
+
+}
