@@ -29,8 +29,10 @@ body {
 
   display:flex;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 0px;
   font-size: 12px;
+  margin: 0px;
+  padding: 0px;
   /* color: #928E72; */
 }
 h3 {
@@ -40,8 +42,8 @@ h3 {
     margin-top: 10px;
     margin-left: 25px;
     margin-right: 25px;
-    margin-bottom: 5px;
-    padding: 15px;
+    margin-bottom: 0px;
+    padding: 0px;
     font-size: 30px;
     font-color:#928E72;
 }
@@ -53,10 +55,10 @@ h3 {
   padding-right: 40px;
 }
 #intro {
-  padding-top: 20px;
+  padding-top: 0px;
 }
 h1 {
-  padding: 15px;
+  padding: 0px;
   border-width: 10px;
   border-style: solid;
   border-color: paleturquoise;
