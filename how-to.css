@@ -13,20 +13,50 @@ body {
   flex-direction: row;
 
 }
+
+#subtitle {
+
+  display:flex;
+  justify-content: center;
+  margin-top: 0px;
+  font-size: 12px;
+  margin-bottom: 10px;
+  padding: 0px;
+  /* color: #928E72; */
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 0px;
+    padding: 0px;
+    font-size: 30px;
+    font-color:#928E72;
+}
+
 .title {
   display: flex;
   justify-content: center;
 }
-#subtitle {
+
+/* .title {
+  display: flex;
+  justify-content: center;
+} */
+/* #subtitle {
   /* padding-bottom: 10px; */
-  font-family: 'Josefin Sans', sans-serif;
+  /* font-family: 'Josefin Sans', sans-serif;
   display:flex;
   justify-content: center;
   margin-top: -10px;
   font-size: 12px;
   font-color:#928E72;
-}
-h3 {
+} */
+/* h3 {
     font-family: 'Josefin Sans', sans-serif;
     display:flex;
     justify-content: center;
@@ -37,7 +67,7 @@ h3 {
     padding: -15px;
     font-size: 12px;
     font-color:#928E72;
-}
+} */
 
 .paragraph {
   font-family: 'Josefin Sans', sans-serif;
