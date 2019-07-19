@@ -77,6 +77,15 @@ img {
   margin-bottom: 100px;
 
 } */
+.text {
+  font-size: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+}
+
 
 .button {
   display: flex;
