@@ -4,7 +4,7 @@
   box-sizing:border-box;
 }
 body {
-  background-color: #CCE5DD
+  background-color: paleturquoise
 }
 .button {
   display: flex;
@@ -43,8 +43,8 @@ h3 {
   padding: 15px;
   border-width: 10px;
   border-style: solid;
-  border-color: #b7ced5;
-  background-color: #b7ced5;
+  border-color: paleturquoise;
+  background-color: paleturquoise;
   font-size: 45px;
 }
 .recycle {
@@ -72,7 +72,7 @@ h3 {
   height: 40px;
   border: solid;
   border-radius:10px;
-  background-color: #CCE5DD;
+  background-color: paleturquoise;
 }
 
 #about_us {
@@ -82,7 +82,7 @@ h3 {
   height: 40px;
   border: solid;
   border-radius:10px;
-  background-color: #CCE5DD;
+  background-color: paleturquoise;
 }
 
 
@@ -93,7 +93,7 @@ h3 {
   height: 40px;
   border: solid;
   border-radius:10px;
-  background-color: #CCE5DD;
+  background-color: paleturquoise;
 }
 
 #parent_info {
@@ -103,5 +103,5 @@ h3 {
   height: 40px;
   border: solid;
   border-radius:10px;
-  background-color: #CCE5DD;
+  background-color: paleturquoise;
 }
