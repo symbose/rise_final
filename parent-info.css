@@ -22,7 +22,8 @@ body {
 .text {
   font-size: 30px;
   display: flex;
-  /* justify-content: center; */
+  align-content: center;
+
 
 }
 #subtitle {

@@ -38,6 +38,19 @@ h3 {
     font-size: 12px;
     font-color:#928E72;
 }
+
+.paragraph {
+  font-family: 'Josefin Sans', sans-serif;
+  display:flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 0px;
+  padding: 0px;
+  font-size: 15px;
+  font-color:#928E72;
+}
 #subsubtitle {
   display: flex;
   justify-content: center;
