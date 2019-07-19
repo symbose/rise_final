@@ -9,9 +9,36 @@
 .title {
   display: flex;
   justify-content: center;
-  font-size: 90px;
+  font-size: 45px;
   padding-top: 10px;
 }
+
+.header{
+  font-family: 'Josefin Sans', sans-serif;
+  display:flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 0px;
+  padding: -15px;
+  font-size: 12px;
+  font-color:#928E72;
+}
+
+.paragraph {
+  font-family: 'Josefin Sans', sans-serif;
+  display:flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 0px;
+  padding: 0px;
+  font-size: 15px;
+  font-color:#928E72;
+}
+
 
 img {
   max-width:100%;
