@@ -11,7 +11,7 @@ body{
 
 
 h1{
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   display:flex;
   justify-content: center;
   margin-top: 10px;
@@ -22,6 +22,35 @@ h1{
   font-size: 50px;
   font-color:#44D1DF;
 }
+
+#subtitle {
+
+  display:flex;
+  justify-content: center;
+  margin-top: 0px;
+  font-size: 12px;
+  margin-bottom: 10px;
+  padding: 0px;
+  /* color: #928E72; */
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 0px;
+    padding: 0px;
+    font-size: 30px;
+    font-color:#928E72;
+}
+
+/* .title {
+  display: flex;
+  justify-content: center;
+} */
 
 p{
   font-family: 'Quicksand', sans-serif;
@@ -46,7 +75,7 @@ p{
   padding: 16px;
   justify-content: space-around;
   margin: 15px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   background-color: white;
 }
 
@@ -67,10 +96,10 @@ p{
 
 }
 
-.header{
+/* .header{
   margin-bottom:20px;
 
-}
+} */
 
 #a{
   width: 400px;
@@ -84,7 +113,7 @@ p{
   flex-flow: column wrap;
   padding-top: 40px;
   padding-left: 15px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 
 
 }
@@ -99,11 +128,11 @@ p{
 }
 
 #add{
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 #boxheaderone{
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size:20px;
   display:flex;
   margin-top:-20px;
