@@ -1,40 +1,3 @@
-// var button = $(`#add`);
-// var waterbottle = $(`#one`);
-// var straw = $(`#two`);
-// var plastic = $(`#three`);
-// var foodWaste = $(`#four`);
-// // var showimage = $(``);
-// var addPoints = 0;
-//
-// button.on("click", add);
-//
-// function add (){
-//   event.preventDefault()
-//
-//
-//   if (waterbottle.prop("checked") == true){
-//     addPoints += 5;
-//   }
-//   if (straw.prop("checked") == true){
-//     addPoints += 5;
-//   }
-//   if (plastic.prop("checked") == true){
-//     addPoints += 5;
-//   }
-//   if (foodWaste.prop("checked") == true){
-//     addPoints += 5;
-//   }
-//
-//   $("#points").text(addPoints);
-//
-//   if (addPoints == 15){
-//       toggleclass
-//   }
-//
-//
-//
-// }
-
 var button = $(`#add`);
 var waterbottle = $(`#one`);
 var straw = $(`#two`);
@@ -44,6 +7,9 @@ var lights = $(`#five`);
 var clothes = $(`#six`);
 var containers = $(`#seven`);
 var litter = $(`#eight`);
+var rewardsButton = $(`#rewards`);
+var addPoints = 0;
+
 
 button.on("click", add);
 
@@ -80,4 +46,29 @@ function add (){
   }
 
   $("#points").text(addPoints);
+
+  return addPoints;
 }
+
+rewardsButton.on("click", changeColors);
+
+function changeColors() {
+
+if (add()==5){
+  var fish = $('#apple');
+  rewardsButton.toggleClass('pink');
+  fish.toggleClass('hide');
+}
+
+else if (add()==10){
+  var clown = $('#banana');
+  rewardsButton.toggleClass('pink');
+  clown.toggleClass('hid');
+}
+
+// else if (add()==15){
+//   var octopus = $('#pear');
+//   rewardsButton.toggleClass('pink');
+//   octopus.toggleClass('hid');
+//
+// }
