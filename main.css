@@ -122,6 +122,16 @@ p{
   border-radius: 4px;
 }
 
+#parent_info {
+  font-size: 20px;
+  margin-top: 25px;
+  width: 200px;
+  height: 40px;
+  border: solid;
+  border-radius:10px;
+  background-color: paleturquoise;
+}
+
 .pink {
   margin: 15px;
   padding: 12px 18px;

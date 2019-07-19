@@ -9,9 +9,14 @@ var containers = $(`#seven`);
 var litter = $(`#eight`);
 var rewardsButton = $(`#rewards`);
 var addPoints = 0;
-
+var home_button = $(`#home`)
 
 button.on("click", add);
+
+home_button.on("click", home_function);
+function home_function(){
+  window.location.href = "./index.html"
+}
 
 function add (){
   event.preventDefault()
@@ -55,11 +60,15 @@ rewardsButton.on("click", changeColors);
 function changeColors() {
 
 if (add()==5){
-  var fish = $('img');
+  var fish = $('#apple');
   rewardsButton.toggleClass('pink');
   fish.toggleClass('hide');
 }
-
+else if (add()==10){
+  var clown = $('#banana');
+  rewardsButton.toggleClass('pink');
+  clown.toggleClass('hide');
+}
 
 
 }
