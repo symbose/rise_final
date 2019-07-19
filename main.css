@@ -161,6 +161,20 @@ p{
   background-color: paleturquoise;
 }
 
+#home {
+  font-size: 20px;
+  margin-top: 25px;
+  width: 200px;
+  height: 40px;
+  border: solid;
+  border-radius:10px;
+  background: paleturquoise;
+}
+.button {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+}
 .pink {
   margin: 15px;
   padding: 12px 18px;
